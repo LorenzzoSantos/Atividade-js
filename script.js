@@ -16,9 +16,9 @@ document.getElementById("btn1").addEventListener("click", function (){
 
 // ---------- Exercicio 2 ----------
 // Ao clicar no botao, mude a cor do texto #texto2 para azul
-//document.getElementById("btn2").addEventListener("click", function () {
-//    document.getElementById("texto2").style.color = "blue"
-//})
+document.getElementById("btn2").addEventListener("click", function () {
+    document.getElementById("texto2").style.color = "blue"
+})
 // Dica: use .style.color = "blue"
 
 
