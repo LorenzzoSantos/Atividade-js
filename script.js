@@ -77,7 +77,7 @@ document.getElementById("btn7").addEventListener("click", function () {
 
 
 
-/* ---------- Exercicio 8 ----------
+// ---------- Exercicio 8 ----------
 // Ao clicar no botao, adicione a classe "destaque" ao #texto8
 document.getElementById("btn8").addEventListener("click", function () {
     document.getElementById("texto8").classList.add("destaque")
@@ -86,7 +86,7 @@ document.getElementById("btn8").addEventListener("click", function () {
 
 
 
-// ---------- Exercicio 9 ----------
+/* ---------- Exercicio 9 ----------
 // Ao clicar no botao, remova o ultimo <li> da #lista9
 document.getElementById("btn9").addEventListener("click", function() {
     const removido = document.getElementById("lista9")
