@@ -44,7 +44,7 @@ document.getElementById("btn4").addEventListener("click", function () {
 
 
 
-/* ---------- Exercicio 5 ----------
+// ---------- Exercicio 5 ----------
 // Ao clicar no botao, mude a cor de fundo da #caixa5
 // para amarelo
 document.getElementById("btn5").addEventListener("click", function () {
@@ -54,7 +54,7 @@ document.getElementById("btn5").addEventListener("click", function () {
 
 
 
-// ---------- Exercicio 6 ----------
+/* ---------- Exercicio 6 ----------
 // Ao clicar no botao, aumente o numero do #contador6 em 1
 document.getElementById("btn6").addEventListener("click", function () {
     let contador = document.getElementById('contador6')
