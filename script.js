@@ -99,7 +99,7 @@ document.getElementById("btn9").addEventListener("click", function() {
 
 
 
-/* ---------- Exercicio 10 ----------
+// ---------- Exercicio 10 ----------
 // Ao clicar no botao, troque o src da #imagem10 para
 // "https://placecats.com/300/200"
 document.getElementById("btn10").addEventListener("click", function() {
