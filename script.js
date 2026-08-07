@@ -35,24 +35,32 @@ document.getElementById("btn3").addEventListener("click", function () {
 // ---------- Exercicio 4 ----------
 // Ao clicar no botao, adicione um novo <li> com o texto
 // "Novo item" dentro da lista #lista4
-//document.getElementById("bton4").addEventListener("click", function () {
-   
-///})
+document.getElementById("btn4").addEventListener("click", function () {
+   const itemNovo = document.createElement("li")
+   itemNovo.textContent = "Novo item"
+   document.getElementById('lista4').appendChild(itemNovo)
+})
 // Dica: use document.createElement() e .appendChild()
 
 
 
-// ---------- Exercicio 5 ----------
+/* ---------- Exercicio 5 ----------
 // Ao clicar no botao, mude a cor de fundo da #caixa5
 // para amarelo
-//
+document.getElementById("btn5").addEventListener("click", function () {
+    document.getElementById("caixa5").style.backgroundColor = "yellow"
+})
 // Dica: use .style.backgroundColor = "yellow"
 
 
 
 // ---------- Exercicio 6 ----------
 // Ao clicar no botao, aumente o numero do #contador6 em 1
-//
+document.getElementById("btn6").addEventListener("click", function () {
+    let contador = document.getElementById('contador6')
+    let contaAtual =  Number(contador.textContent)
+    contador.textContent = contaAtual +1
+})
 // Dica: leia o valor atual com .textContent, converta para
 // numero com Number() e some 1
 
@@ -61,21 +69,32 @@ document.getElementById("btn3").addEventListener("click", function () {
 // ---------- Exercicio 7 ----------
 // Ao clicar no botao, pegue o valor digitado no #input7
 // e mostre dentro do #resultado7
-//
+document.getElementById("btn7").addEventListener("click", function () {
+    let Sla = document.getElementById("input7").value
+    document.getElementById("resultado7").textContent = Sla
+})
 // Dica: use .value para pegar o texto do input
 
 
 
 // ---------- Exercicio 8 ----------
 // Ao clicar no botao, adicione a classe "destaque" ao #texto8
-//
+document.getElementById("btn8").addEventListener("click", function () {
+    document.getElementById("texto8").classList.add("destaque")
+})
 // Dica: use .classList.add("destaque")
 
 
 
 // ---------- Exercicio 9 ----------
 // Ao clicar no botao, remova o ultimo <li> da #lista9
-//
+document.getElementById("btn9").addEventListener("click", function() {
+    const removido = document.getElementById("lista9")
+    const ultimo = removido.lastElementChild
+    if(ultimo){
+        removido.removeChild(ultimo)
+    }
+})
 // Dica: use .lastElementChild e .removeChild()
 
 
@@ -83,6 +102,7 @@ document.getElementById("btn3").addEventListener("click", function () {
 // ---------- Exercicio 10 ----------
 // Ao clicar no botao, troque o src da #imagem10 para
 // "https://placecats.com/300/200"
-//
+document.getElementById("btn10").addEventListener("click", function() {
+    document.getElementById("imagem10").src = "https://placecats.com/300/200"
+})
 // Dica: use .src = "nova-url"
-
