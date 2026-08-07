@@ -54,7 +54,7 @@ document.getElementById("btn5").addEventListener("click", function () {
 
 
 
-/* ---------- Exercicio 6 ----------
+// ---------- Exercicio 6 ----------
 // Ao clicar no botao, aumente o numero do #contador6 em 1
 document.getElementById("btn6").addEventListener("click", function () {
     let contador = document.getElementById('contador6')
@@ -66,7 +66,7 @@ document.getElementById("btn6").addEventListener("click", function () {
 
 
 
-// ---------- Exercicio 7 ----------
+/* ---------- Exercicio 7 ----------
 // Ao clicar no botao, pegue o valor digitado no #input7
 // e mostre dentro do #resultado7
 document.getElementById("btn7").addEventListener("click", function () {
