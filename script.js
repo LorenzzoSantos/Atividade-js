@@ -66,7 +66,7 @@ document.getElementById("btn6").addEventListener("click", function () {
 
 
 
-/* ---------- Exercicio 7 ----------
+// ---------- Exercicio 7 ----------
 // Ao clicar no botao, pegue o valor digitado no #input7
 // e mostre dentro do #resultado7
 document.getElementById("btn7").addEventListener("click", function () {
@@ -77,7 +77,7 @@ document.getElementById("btn7").addEventListener("click", function () {
 
 
 
-// ---------- Exercicio 8 ----------
+/* ---------- Exercicio 8 ----------
 // Ao clicar no botao, adicione a classe "destaque" ao #texto8
 document.getElementById("btn8").addEventListener("click", function () {
     document.getElementById("texto8").classList.add("destaque")
