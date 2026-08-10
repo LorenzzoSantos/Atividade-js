@@ -20,7 +20,10 @@ botao.addEventListener("click", function () {
 // ---------- Exercicio 12 ----------
 // Ao clicar no botao #btn12, troque o texto dele
 // de "Curtir" para "Curtido!"
-//
+const botao12 = document.getElementById("btn12")
+botao12.addEventListener("click", function () {
+    botao12.textContent = "Curtido!"
+})
 // Dica: use .textContent no proprio botao
 // DÊ COMMIT
 
