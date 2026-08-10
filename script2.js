@@ -98,7 +98,12 @@ botao16.addEventListener("click", function () {
 // ---------- Exercicio 17 ----------
 // Ao clicar no botao, adicione uma borda "3px solid red"
 // na #caixa17
-//
+const caixa17 = document.getElementById("caixa17");
+const botao17 = document.getElementById("btn17");
+
+botao17.addEventListener("click", function () {
+    caixa17.style.border = "3px solid red";
+}); 
 // Dica: use .style.border = "3px solid red"
 // DÊ COMMIT
 
@@ -107,7 +112,14 @@ botao16.addEventListener("click", function () {
 // ---------- Exercicio 18 ----------
 // Ao clicar no botao, copie o valor do #input18a
 // para o #input18b
-//
+/*
+const input18a = document.getElementById("input18a");
+const input18b = document.getElementById("input18b");
+const botao18 = document.getElementById("btn18");
+
+botao18.addEventListener("click", function () {
+    input18b.value = input18a.value;
+});
 // Dica: use .value para ler e definir o texto dos inputs
 // DÊ COMMIT
 
