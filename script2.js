@@ -134,11 +134,11 @@ const btn19mais = document.getElementById("btn19mais");
 const btn19menos = document.getElementById("btn19menos");
 
 btn19mais.addEventListener("click", function () {
-    contador19.value = Number(contador19.text) + 1;
+    contador19.textContent = Number(contador19.textContent) + 1;
 });
 
 btn19menos.addEventListener("click", function () {
-    contador19.value = Number(contador19.value) - 1;
+    contador19.textContent = Number(contador19.textContent) - 1;
 });
 // Dica: use Number() para converter o texto em numero
 // DÊ COMMIT
