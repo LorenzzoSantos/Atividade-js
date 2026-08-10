@@ -60,7 +60,16 @@ botao14.addEventListener("click", function () {
 // ---------- Exercicio 15 ----------
 // Ao clicar no botao, pegue o valor do #input15 e
 // adicione como novo <li> na #lista15
-//
+
+const input15 = document.getElementById("input15");
+const lista15 = document.getElementById("lista15");
+const botao15 = document.getElementById("btn15");
+
+botao15.addEventListener("click", function () {
+    const novoItem = document.createElement("li");
+    novoItem.textContent = input15.value;
+    lista15.appendChild(novoItem);
+});
 // Dica: use document.createElement("li"), .textContent
 // e .appendChild()
 // DÊ COMMIT
