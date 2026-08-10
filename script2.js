@@ -6,8 +6,14 @@
 
 // ---------- Exercicio 11 ----------
 // Ao clicar no botao #btn11, desabilite-o
-//
-// Dica: use .disabled = true
+
+const botao = document.getElementById("btn11");
+botao.addEventListener("click", function () {
+    botao.style.backgroundColor = "gray";
+    botao.disabled = true;
+})
+// Dica: use .disabled = true 
+// DÊ COMMIT
 
 
 
@@ -16,6 +22,7 @@
 // de "Curtir" para "Curtido!"
 //
 // Dica: use .textContent no proprio botao
+// DÊ COMMIT
 
 
 
@@ -24,6 +31,7 @@
 // #texto13 para "32px"
 //
 // Dica: use .style.fontSize = "32px"
+// DÊ COMMIT
 
 
 
@@ -31,6 +39,7 @@
 // Ao clicar no botao, remova todos os itens da #lista14
 //
 // Dica: use .innerHTML = ""
+// DÊ COMMIT
 
 
 
@@ -40,6 +49,7 @@
 //
 // Dica: use document.createElement("li"), .textContent
 // e .appendChild()
+// DÊ COMMIT
 
 
 
@@ -49,6 +59,7 @@
 // Se esta escondido (display == "none"), mostre.
 //
 // Dica: use um if/else com .style.display
+// DÊ COMMIT
 
 
 
@@ -57,6 +68,7 @@
 // na #caixa17
 //
 // Dica: use .style.border = "3px solid red"
+// DÊ COMMIT
 
 
 
@@ -65,6 +77,7 @@
 // para o #input18b
 //
 // Dica: use .value para ler e definir o texto dos inputs
+// DÊ COMMIT
 
 
 
@@ -73,6 +86,7 @@
 // Ao clicar em #btn19menos, diminua o valor do #contador19 em 1
 //
 // Dica: use Number() para converter o texto em numero
+// DÊ COMMIT
 
 
 
@@ -81,3 +95,4 @@
 // e aplique como cor de fundo da #caixa20
 //
 // Dica: input type="color" tambem tem .value
+// DÊ COMMIT
