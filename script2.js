@@ -148,6 +148,11 @@ btn19menos.addEventListener("click", function () {
 // ---------- Exercicio 20 ----------
 // Ao clicar no botao, pegue a cor selecionada no #corInput20
 // e aplique como cor de fundo da #caixa20
-//
+const botao20 = document.getElementById("btn20")
+botao20.addEventListener("click", function () {
+    let Cor = document.getElementById("corInput20").value
+    document.getElementById("caixa20").style.backgroundColor = Cor
+})
+
 // Dica: input type="color" tambem tem .value
 // DÊ COMMIT
