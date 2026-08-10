@@ -112,7 +112,7 @@ botao17.addEventListener("click", function () {
 // ---------- Exercicio 18 ----------
 // Ao clicar no botao, copie o valor do #input18a
 // para o #input18b
-/*
+
 const input18a = document.getElementById("input18a");
 const input18b = document.getElementById("input18b");
 const botao18 = document.getElementById("btn18");
