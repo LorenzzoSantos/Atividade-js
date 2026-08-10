@@ -32,7 +32,12 @@ botao12.addEventListener("click", function () {
 // ---------- Exercicio 13 ----------
 // Ao clicar no botao, mude o tamanho da fonte do
 // #texto13 para "32px"
-//
+const texto13 = document.getElementById("texto13");
+const botao13 = document.getElementById("btn13");
+
+botao13.addEventListener("click", function () {
+    texto13.style.fontSize = "32px";
+});
 // Dica: use .style.fontSize = "32px"
 // DÊ COMMIT
 
@@ -40,7 +45,13 @@ botao12.addEventListener("click", function () {
 
 // ---------- Exercicio 14 ----------
 // Ao clicar no botao, remova todos os itens da #lista14
-//
+
+const lista14 = document.getElementById("lista14");
+const botao14 = document.getElementById("btn14");
+
+botao14.addEventListener("click", function () {
+    lista14.innerHTML = "";
+});
 // Dica: use .innerHTML = ""
 // DÊ COMMIT
 
