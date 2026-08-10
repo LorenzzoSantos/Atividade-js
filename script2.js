@@ -80,7 +80,16 @@ botao15.addEventListener("click", function () {
 // Ao clicar no botao, alterne a visibilidade do #texto16
 // Se esta visivel (display != "none"), esconda.
 // Se esta escondido (display == "none"), mostre.
-//
+const texto16 = document.getElementById("texto16");
+const botao16 = document.getElementById("btn16");
+
+botao16.addEventListener("click", function () {
+    if (texto16.style.display === "none") {
+        texto16.style.display = "block";
+    } else {
+        texto16.style.display = "none";
+    }
+});
 // Dica: use um if/else com .style.display
 // DÊ COMMIT
 
