@@ -53,7 +53,7 @@ botao14.addEventListener("click", function () {
     lista14.innerHTML = "";
 });
 // Dica: use .innerHTML = ""
-// DÊ COMMIT
+// DÊ COMMIT CARA
 
 
 
