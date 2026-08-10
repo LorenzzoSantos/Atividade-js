@@ -128,7 +128,18 @@ botao18.addEventListener("click", function () {
 // ---------- Exercicio 19 ----------
 // Ao clicar em #btn19mais, aumente o valor do #contador19 em 1
 // Ao clicar em #btn19menos, diminua o valor do #contador19 em 1
-//
+
+const contador19 = document.getElementById("contador19");
+const btn19mais = document.getElementById("btn19mais");
+const btn19menos = document.getElementById("btn19menos");
+
+btn19mais.addEventListener("click", function () {
+    contador19.value = Number(contador19.text) + 1;
+});
+
+btn19menos.addEventListener("click", function () {
+    contador19.value = Number(contador19.value) - 1;
+});
 // Dica: use Number() para converter o texto em numero
 // DÊ COMMIT
 
